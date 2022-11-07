@@ -1,0 +1,2 @@
+Contacts{firstName='Sayyed', lastName='Mutallib', address='Taj', city='Nagar', email='smutallib97@gmail.com', state='Maharashtra', zip=443101, phoneNumber=9518553297}
+Contacts{firstName='Nitish', lastName='Priyapardeshi', address='Home', city='Patna', email='nitishpriyapardeshi@gmail.com', state='Bihar', zip=482518, phoneNumber=8745185245}
