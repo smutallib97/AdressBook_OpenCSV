@@ -27,7 +27,7 @@ public class AddressBookFileIOService {
     public static List<Contact> readData (){
         List<Contact> contactPersonList = new ArrayList<>();
         try {
-            Files.lines(new File(HOME+"mumbai.txt").toPath())
+            Files.lines(new File(HOME+"Contact.txt").toPath())
                     .map(line -> line.trim())
                     .forEach(line->System.out.println(line));
         }catch (IOException e){
@@ -37,7 +37,7 @@ public class AddressBookFileIOService {
     }
     public void printData(){
         try {
-            Files.lines(new File(HOME+"mumbai.txt").toPath())
+            Files.lines(new File(HOME+"Contact.txt").toPath())
                     .forEach(System.out::println);
         }catch (IOException e){
             e.printStackTrace();
